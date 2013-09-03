@@ -14,5 +14,6 @@ public class ClientProxy extends CommonProxy {
     public void registerRendering(){
         RenderingRegistry.registerEntityRenderingHandler(EntityHuman.class, new RenderHuman());
 
+
     }
 }
