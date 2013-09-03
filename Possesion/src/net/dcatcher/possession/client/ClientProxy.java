@@ -13,5 +13,6 @@ public class ClientProxy extends CommonProxy {
     @Override
     public void registerRendering(){
         RenderingRegistry.registerEntityRenderingHandler(EntityHuman.class, new RenderHuman());
+
     }
 }
